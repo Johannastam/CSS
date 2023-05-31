@@ -289,6 +289,11 @@ button:hover{
 /* SIDE 1*/
 
 @media screen and (max-width: 900px) {
+
+    .first_box{
+        margin:4rem 0 4rem 0 ;
+    }
+
     .first_box img{
         width: 12rem;
         height: auto;
@@ -327,6 +332,8 @@ button:hover{
         align-items: center;
         align-content: center;
         background-color:#D6E4FD;
+        margin: 0 ;
+        
     }
 
     .second_box img{

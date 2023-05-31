@@ -288,12 +288,15 @@ button:hover{
 
 /* SIDE 1*/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
 
-    .first_box{
-        margin:4rem 0 4rem 0 ;
+    input{
+        padding: 1rem 4rem 1rem 2rem;
+        margin-top:8rem;
+        margin-right: 1rem;
+        font-size: 1rem;
     }
-
+    
     .first_box img{
         width: 12rem;
         height: auto;
@@ -332,8 +335,6 @@ button:hover{
         align-items: center;
         align-content: center;
         background-color:#D6E4FD;
-        margin: 0 ;
-        
     }
 
     .second_box img{
@@ -393,4 +394,118 @@ button:hover{
     .ipad3{
         display: none;
     }
+}
+
+
+
+
+
+/* SIDE 1*/
+
+@media screen and (max-width: 600px) {
+
+    .first_box{
+        margin: 3rem 1rem 0 1rem;
+    }
+    .first_box img{
+        width: 8rem;
+        height: auto;
+        
+    }
+
+    .first_box h1{
+        font-size: 2.5em;
+        margin: 3rem 0 3rem 3rem;
+    }
+    .first_box h2{
+        font-size: 1.5rem;
+        margin: 3rem 0 3rem 3rem;
+    }
+
+    .first_box button{
+        font-size: 1.5rem;
+        font-weight: 700;
+        border-radius: 1.2rem;
+        border-style:hidden;
+        padding: 0 4rem 0 4rem;
+        margin: 4rem 0 0 3rem ;
+        
+    }
+
+    .first_box p{
+        font-size: 1rem;
+        margin-left: 1.2rem;
+        padding: 1rem 4rem;
+    }
+
+
+
+    .second_box{
+        margin: 3rem 1rem 0 1rem;
+    
+    }
+
+    .second_box img{
+        margin: 5rem;
+        height: 25rem;
+    }
+
+    .second_box p{
+        font-size: 2rem;
+        line-height:3rem;
+
+    }
+    .second_box button{
+        font-size: 2.5rem;
+        font-weight: 700;
+        border-radius: 1.2rem;
+        border-style:hidden;
+        padding:1rem 2rem;
+    }
+
+    .third_box{
+        margin: 3rem 1rem 0 1rem;
+    
+    }
+
+    .third_box img{
+        width: 70%;
+    }
+
+/* SIDE 2*/
+
+    .about_box{
+        margin: 3rem 1rem 0 1rem;
+    }
+
+    .about_box img{
+        margin: 5rem;
+        height: 25rem;
+    }
+
+    .about_box p {
+        font-size: 2.5rem;
+        line-height:3rem;
+        padding: 1.5rem 2.5rem;
+    }
+
+    .box1 p {
+        font-size: 2.5rem;
+        line-height:3rem;
+        padding: 1.5rem 2.5rem;
+    }
+
+    .info_box{
+        margin: 3rem 1rem 0 1rem;
+    }
+
+    footer nav ul li{
+        font-size: 2rem;
+    }
+
+    .footer_logo{
+        width:auto;
+        height: 8rem;
+    }
+
 }

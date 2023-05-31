@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+
+html {
+    font-size: 10px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+/* BAKGRUNN & HEADER */
+
+body{
+    background-image: url(./assets/Bakgrunn.png);
+    background-size:100%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header section{
+    display: flex;
+    flex-direction: column;
+    margin:4rem 0 0 4rem;
+    font-weight: 700;
+    color:#313D54;
+    
+}
+
+.logo1{
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.logo2{
+    font-size: 7.5rem;
+    text-decoration: none;
+}
+
+/* BODY (SIDE 2) */
+
+input{
+    background-color:#F8FAF9;
+    padding: 1rem 4rem 1rem 2rem;
+    border-radius: 1rem;
+    border-style:hidden;
+    margin:8rem 6rem 0 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.7rem;
+}
+
+.first_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#D6E4FD;
+    border-radius: 1.4rem;
+    margin: 4rem 10rem 0 10rem;
+}
+
+.first_box h1{
+    font-size: 5.5rem;
+    margin-top: 1rem;
+}
+.first_box h2{
+    font-size: 2.5rem;
+
+}
+.first_box button{
+    background-color:#F8FAF9;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    border-radius: 1.2rem;
+    border-style:hidden;
+    padding: 0 4rem 0 4rem;
+    margin-top: 8rem;
+    
+
+}
+.first_box img{
+    margin: 5rem;
+    height: 45rem;
+
+}
+
+.first_box p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 1rem 3.5rem;
+}
+
+.second_box{
+    display: flex;
+    flex-direction:  row;
+    align-items: center;
+    background-color:#D6E4FD;
+    margin: 4rem 10rem 0 10rem;
+    border-radius: 1.4rem;
+    padding: 0.7rem;
+}
+
+.second_box div {
+    width: 40%;
+    display: flex;
+    flex-direction:column;
+
+}
+
+
+.second_box p{
+    font-size: 3.7rem;
+    margin-bottom: 4rem;
+    line-height:6rem;
+}
+
+.second_box button{
+    background-color:#F8FAF9;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    border-radius: 1.2rem;
+    border-style:hidden;
+    margin: 0 9rem 5rem 9rem;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: #d2d5d4;
+}
+
+.second_box img{
+    margin: 5rem;
+    height: 45rem;
+}
+
+.third_box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color:#D6E4FD;
+    margin: 4rem 10rem 4rem 10rem;
+    border-radius: 1.4rem;
+    padding: 5rem;
+
+}
+
+.third_box div {
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.vertical-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.third_box p{
+    list-style: none;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 14rem;
+    background-color: #DBE5E0;
+    padding: 4rem;
+}
+
+footer nav li:hover {
+    text-decoration:underline
+}
+
+footer nav ul li{
+    font-size: 3rem;
+    list-style: none;
+    margin-right: 5rem;
+    text-align: right;
+    line-height: 5rem;
+
+}
+
+.footer_linje{
+    height: 15rem;
+}
+
+.footer_logo{
+    height: 10rem;
+    margin-top: 2.5rem;
+    margin-left: 5rem;
+}
+
+
+
+/* FORMS (SIDE 2) */
+
+
+.about_box{
+    display: flex;
+    flex-wrap:row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#D6E4FD;
+    margin: 4rem 10rem 0 10rem;
+    border-radius: 1.4rem;
+    padding: 7rem;
+}
+
+.about_box p{
+    font-size: 3.5rem;
+    padding:4rem;
+    line-height:6rem;
+}
+
+.about_box button{
+    background-color:#F8FAF9;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    border-radius: 1.2rem;
+    border-style:hidden;
+    margin: 0 9rem 5rem 9rem;
+}
+
+button:hover{
+    background-color: #d2d5d4;
+}
+
+.about_box img{
+    margin: 5rem;
+    height: 45rem;
+}
+
+.info_box{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#D6E4FD;
+    margin: 4rem 10rem 4rem 10rem;
+    border-radius: 1.4rem;
+    padding: 7rem;
+}
+
+.box1{
+    display: flex;
+    flex-direction:row;
+    margin-bottom: 4rem;
+
+}
+
+.box1 img{
+    width: 13rem;
+    margin-left: 8rem;
+    
+}
+.box1 p{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-size: 3.5rem;
+    line-height:6rem;
+    padding: 3rem 5rem;
+
+}
+
+.box2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;   
+    margin: 3rem;
+}
+
+.box2 img{
+    width: 25rem;
+}
+
+/* SIDE 1*/
+
+@media screen and (max-width: 900px) {
+    .first_box img{
+        width: 12rem;
+        height: auto;
+        
+    }
+
+    .first_box h1{
+        font-size: 4rem;
+        margin: 3rem 0 3rem 3rem;
+    }
+    .first_box h2{
+        font-size: 2rem;
+        margin: 3rem 0 3rem 3rem;
+    }
+
+    .first_box button{
+        font-size: 2rem;
+        font-weight: 700;
+        border-radius: 1.2rem;
+        border-style:hidden;
+        padding: 0 4rem 0 4rem;
+        margin: 4rem 0 0 3rem ;
+        
+    }
+
+    .first_box p{
+        font-size: 1rem;
+        margin-left: 6rem;
+    }
+
+
+
+    .second_box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        background-color:#D6E4FD;
+    }
+
+    .second_box img{
+        margin: 5rem;
+        height: 25rem;
+    }
+
+    .second_box p{
+        font-size: 2rem;
+        line-height:3rem;
+
+    
+    }
+    .second_box button{
+        font-size: 2rem;
+        font-weight: 700;
+        border-radius: 1.2rem;
+        border-style:hidden;
+        padding: 0 4rem 0 4rem;
+        margin: 4rem 0 5rem 0;
+    }
+
+
+
+/* SIDE 2*/
+
+    .about_box{
+        flex-direction: column;
+    }
+
+    .about_box img{
+        margin: 5rem;
+        height: 25rem;
+    }
+
+    .about_box p {
+        font-size: 2.5rem;
+        line-height:3rem;
+        padding: 1.5rem 2.5rem;
+    }
+
+    .box1 p {
+        font-size: 2.5rem;
+        line-height:3rem;
+        padding: 1.5rem 2.5rem;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    .box1 img {
+        display: none;
+    }
+    .ipad2{
+        display: none;
+    }
+    .ipad3{
+        display: none;
+    }
+}
